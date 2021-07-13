@@ -1,0 +1,273 @@
+.log {
+
+    background-color: #FFFFFF !important;
+    width: 400px;
+    height: 400px;
+    margin-top: 7em ;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 5em;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.text {
+    text-align: center;
+    padding-top: 40px;
+    color: #8C55AA;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.log-state {
+    position: absolute;
+    margin: 100px 0 0 100px;
+    text-decoration:none;
+    cursor: pointer;
+    text-align: center;
+    color: #643b7a;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.log-state:hover {
+    cursor: pointer;
+    margin: 98px 0 0 72px;
+    font-size: 18px;
+    transition: all 0.2s ease-in;
+}
+
+.user-welcome {
+    color: #25062b;
+    padding-left: 15px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+}
+
+.error-active {
+    text-align: center;
+    padding-top: 10px;
+    color: #f10d0d;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
+.error {
+    text-align: center;
+    padding-top: 5px;
+    color: #f10d0d;
+    font-size: 15px;
+    top:-80px;
+    transition: all 0.3s ease-out;
+    opacity: 0;
+}
+
+.username, .password, .confirm-password{
+    position: absolute;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 20px;
+
+}
+.username-small, .password-small, .confirm-password-small{
+    position: absolute;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 20px;
+
+}
+.username{
+    margin: 150px 0 0 80px; 
+}
+
+
+.password {
+    margin: 205px 0 0 80px;
+    
+}
+.confirm-password {
+    margin: 260px 0 0 80px;
+}
+
+.username-small {
+    margin: 150px 0 0 90px; 
+}
+
+
+.password-small {
+    margin: 205px 0 0 90px;
+    
+}
+.confirm-password-small {
+    margin: 260px 0 0 90px;
+}
+
+
+.username-small:focus, .password-small:focus,.confirm-password-small:focus{
+    border: 1px solid rgba(0, 0, 0, 0.945) !important;  
+}
+
+.username:focus, .password:focus,.confirm-password:focus, .searchbar:focus{
+    border: 1px solid rgba(0, 0, 0, 0.945) !important;  
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-signin {
+
+    margin-top: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    border: 0;
+    padding: 10px 30px 10px 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+.submit-signup {
+    margin-top: 62%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    border: 0;
+    padding: 10px 30px 10px 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-logout {
+    justify-self: center;
+    position: relative;
+    border: none;
+    font-size: 15px;
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5em;
+    color: #fff;
+    padding: 10px 0px 10px 0px;
+    margin: 0px 120px 0px 120px;
+
+}
+
+
+.forgot {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    padding-top: 15px;
+}
+
+
+.submit-signin:hover, .submit-signup:hover, .submit-logout:hover {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    font-size: 16px;
+    background-color: #f83606e5;
+    text-decoration-style:dotted;
+    color:rgb(250, 249, 249);
+    transition: 0.2s;
+    transform: scale(1.2);
+} 
+.logout:hover span {
+    padding-right: 25px;
+    
+}
+.logout:hover button {
+    background-color: #f5b60b;
+}
+
+.logout span {
+    font-size: 12px;
+    color:#0c010e;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+  }
+
+.logout span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -30px;
+    transition: 0.3s;
+  }
+.logout:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+.password-strength{
+    text-align: left;
+    position: absolute;
+    margin: 245px 0 0 90px;
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+.password-strength[data-password="Too weak"]{
+    color:red;
+}
+
+.password-strength[data-password="Weak"]{
+    color:red;
+}
+.password-strength[data-password="Strong"]{
+    color:rgb(82, 209, 9);
+}
+.password-check{
+    color:red;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    margin: 300px 0 0 90px;
+}
+
+
+
