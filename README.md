@@ -1,3 +1,9 @@
+# This is the sample React client side
+
+I have duplicated the Navbar from Brain Design here is the link to that video:
+https://www.youtube.com/watch?v=3nLTB_E6XAM&list=PLKUcs_rL4A6tW6knyufw53FS5_r4KTC-8&index=9&t=4803s
+and add some effect by using intersection observer. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
